@@ -13,14 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.androiddevchallenge.ui.theme
+package com.example.androiddevchallenge.ui.components
 
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.Shapes
-import androidx.compose.ui.unit.dp
+import androidx.annotation.DrawableRes
+import androidx.compose.foundation.Image
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
 
-val shapes = Shapes(
-    small = RoundedCornerShape(4.dp),
-    medium = RoundedCornerShape(16.dp),
-    large = RoundedCornerShape(0.dp)
-)
+@Composable
+fun SootheImage(
+    imageRes: Int,
+    modifier: Modifier,
+    scale: ContentScale = ContentScale.None
+) {
+    Image(
+        painter = painterResource(id = imageRes), contentDescription = null,
+        modifier = modifier,
+        contentScale = scale
+    )
+}
