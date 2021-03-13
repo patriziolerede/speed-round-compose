@@ -23,11 +23,9 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.paddingFromBaseline
 import androidx.compose.material.Button
 import androidx.compose.material.ButtonDefaults
 import androidx.compose.material.MaterialTheme
-import androidx.compose.material.OutlinedTextField
 import androidx.compose.material.Text
 import androidx.compose.material.TextField
 import androidx.compose.runtime.Composable
@@ -101,7 +99,6 @@ fun AccountScreen(navigateToHome: () -> Unit = {}) {
                 placeholder = { Text(text = stringResource(R.string.password)) },
                 singleLine = true
             )
-
 
             Button(
                 onClick = navigateToHome,

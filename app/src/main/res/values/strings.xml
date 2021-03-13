@@ -17,12 +17,11 @@
     <string name="password">Password</string>
     <string name="log_in_notice_1">Don\'t have an account? &#160;</string>
     <string name="sign_up">Sign up</string>
-    <string name="home">Home</string>
-    <string name="favorites">Favorites</string>
-    <string name="profile">Profile</string>
-    <string name="cart">Cart</string>
+    <string name="home">HOME</string>
+    <string name="play">Play</string>
+    <string name="profile">PROFILE</string>
     <string name="home_search">Search</string>
-    <string name="home_browse_themes">Browse themes</string>
-    <string name="home_garden">Design your home garden</string>
-    <string name="home_filter">Filter</string>
+    <string name="home_browse_themes">FAVORITE COLLECTIONS</string>
+    <string name="home_your_body">ALIGN YOUR BODY</string>
+    <string name="home_your_mind">ALIGN YOUR MIND</string>
 </resources>

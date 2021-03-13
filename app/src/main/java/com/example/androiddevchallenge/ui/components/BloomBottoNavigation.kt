@@ -28,8 +28,8 @@ import com.example.androiddevchallenge.ui.navigation.NavigationItem
 @Composable
 fun SootheBottomNavigation() {
     BottomNavigation(
-        backgroundColor = MaterialTheme.colors.primary,
-        elevation = 16.dp
+        backgroundColor = MaterialTheme.colors.background,
+        elevation = 8.dp
     ) {
         NavigationItem.values().forEachIndexed { index, item ->
             BottomNavigationItem(

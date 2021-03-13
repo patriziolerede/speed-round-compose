@@ -18,15 +18,13 @@ package com.example.androiddevchallenge.ui.navigation
 import androidx.annotation.StringRes
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountCircle
-import androidx.compose.material.icons.filled.FavoriteBorder
-import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.ShoppingCart
+import androidx.compose.material.icons.filled.PlayArrow
+import androidx.compose.material.icons.filled.Spa
 import androidx.compose.ui.graphics.vector.ImageVector
 import com.example.androiddevchallenge.R
 
 enum class NavigationItem(@StringRes val titleRes: Int, val icon: ImageVector) {
-    Home(R.string.home, Icons.Filled.Home),
-    Favorites(R.string.favorites, Icons.Filled.FavoriteBorder),
+    Home(R.string.home, Icons.Filled.Spa),
+    Play(R.string.play, Icons.Filled.PlayArrow),
     Profile(R.string.profile, Icons.Filled.AccountCircle),
-    Cart(R.string.cart, Icons.Filled.ShoppingCart)
 }
